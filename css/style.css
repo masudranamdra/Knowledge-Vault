@@ -11,7 +11,7 @@
 
 /* Website Navigation Section */
 
-.nav-continer {
+.nav-container {
     padding: 16px 120px;
     background-color: aliceblue;
     display: flex;
@@ -20,14 +20,14 @@
 
 }
 
-.nav-continer .manu {
+.nav-container .menu {
     display: flex;
     list-style: none;
     gap: 32px;
     text-align: center;
 }
 
-.nav-continer .manu a {
+.nav-container .menu a {
     text-decoration: none;
     color: #000000;
     font-size: 16px;
@@ -35,7 +35,7 @@
     cursor: pointer;
 }
 
-.nav-continer button {
+.nav-container button {
     background-color: #469165;
     border: none;
     padding: 16px 12px;
@@ -44,7 +44,12 @@
 
 }
 
-.nav-continer .nav-btn a {
+.nav-container button:hover {
+    background-color: #095624;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-container .nav-btn a {
     text-decoration: none;
     color: #ffffff;
     font-size: 16px;
@@ -52,6 +57,7 @@
 }
 
 /* Website Home Section */
+
 
 .content {
     background: url(hero-bg.png);
@@ -75,6 +81,16 @@
     font-weight: 500;
     color: #2a8c4a;
     font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.home-content-head-text img{
+    width: 15px;
+    height: 15px;
+    
 }
 
 .content .content-h {
@@ -104,40 +120,72 @@
 .content-home-button {
     gap: 16px;
     margin-top: 32px;
+    display: flex;
+    justify-content: center;
 }
 
+/* button 1 */
+
+
 .home-content-button-1 {
+    font-size: 16px;
+    font-weight: 600;
+    width: fit-content;
+    border: 1px solid #469165;
     background-color: #469165;
-    padding: 16px 12px;
-    border-radius: 4px;
-    border: #469165;
-    border: 2px solid #469165;
-    cursor: pointer;
+    border-radius: 8px;
+
 }
 
 .home-content-button-1 a {
-    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
     color: #ffffff;
-    font-weight: 600;
-
+    padding: 16px 12px;
+    text-decoration: none;
+    gap: 10px;
+}
+.home-content-button-1:hover {
+    background-color: #095624;
+    transition: all 0.5s ease-in-out;
 }
 
+.home-content-button-1 img {
+    width: 16px;
+    height: 16px;
+}
+
+
+/* button 2 */
+
+
 .home-content-button-2 {
-    background-color: #46916500;
-    padding: 16px 12px;
-    border-radius: 4px;
-    border: 2px solid #ffffff;
-    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    width: fit-content;
+    border: 1px solid #ffffff;
+    background-color: #ffffff00;
+    border-radius: 8px;
+
 }
 
 .home-content-button-2 a {
-    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
     color: #ffffff;
-    font-weight: 600;
+    padding: 16px 12px;
+    text-decoration: none;
+    gap: 10px;
 }
-
-
-
+.home-content-button-2:hover {
+    background-color: #095624;
+    transition: all 0.5s ease-in-out;
+    color: #ffffff;
+}
+.home-content-button-2 img {
+    width: 16px;
+    height: 16px;
+}
 
 /* Website Notes Section */
 #notes {
@@ -170,6 +218,11 @@
     justify-content: space-between;
     box-shadow: 0px 0px 10px 0px rgba(40, 33, 33, 0.112);
     border-radius: 8px;
+}
+
+.Box:hover {
+    box-shadow: 0px 6px 30px 0px rgba(40, 33, 33, 0.2);
+    transition: all 0.5s ease-in-out, ease-in-out;
 }
 
 .notes-content .Box img {
@@ -365,13 +418,14 @@
     transition: 0.3s;
     font-size: 14px;
     background-color: #ffffff;
-    margin-right: 10px;
+    margin-right: 3px;
+    padding: 12px;
 }
 
 .social-icons a:hover {
-    background: #00bcd4;
-    border-color: #00bcd4;
-    color: #000;
+    background: #217dff;
+    border-color: #49a2fc;
+    color: #ffffff;
 }
 
 #footer hr {
