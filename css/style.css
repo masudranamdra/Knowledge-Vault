@@ -9,6 +9,8 @@
     font-optical-sizing: auto;
 }
 
+/* Website Navigation Section */
+
 .nav-continer {
     padding: 16px 120px;
     background-color: aliceblue;
@@ -48,6 +50,8 @@
     font-size: 16px;
     font-weight: 600;
 }
+
+/* Website Home Section */
 
 .content {
     background: url(hero-bg.png);
@@ -132,6 +136,10 @@
     font-weight: 600;
 }
 
+
+
+
+/* Website Notes Section */
 #notes {
     padding: 0px 120px 120px 120px;
     align-items: center;
@@ -180,6 +188,11 @@
     font-size: 16px;
     font-weight: 400;
 }
+
+
+
+/* website Solutions section */
+
 
 #solution {
     padding: 120px 120px 120px 120px;
@@ -242,6 +255,8 @@
 }
 
 
+/* Website early-Access section */
+
 #early-Access {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -298,4 +313,76 @@
     font-size: 14px;
     color: #6b7280;
     margin-top: 16px;
+}
+
+
+
+/* website Footer Sections */
+
+
+#footer {
+    width: 100%;
+    background: #001931;
+    color: #fff;
+    padding: 120px 120px 30px 120px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#footer .content-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    width: 90%;
+}
+
+.footer-social h4 {
+    margin-bottom: 10px;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.social-icons {
+    margin-top: 16px;
+}
+
+.social-icons a {
+    gap: 16px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    color: #001931;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+    background-color: #ffffff;
+    margin-right: 10px;
+}
+
+.social-icons a:hover {
+    background: #00bcd4;
+    border-color: #00bcd4;
+    color: #000;
+}
+
+#footer hr {
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin: 30px;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FAFAFA;
 }
