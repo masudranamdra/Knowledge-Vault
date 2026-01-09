@@ -13,7 +13,7 @@
 
 .nav-container {
     padding: 16px 120px;
-    background-color: aliceblue;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -206,7 +206,7 @@
 .heading h1 {
     font-size: 48px;
     font-weight: bold;
-    height: 160px;
+    /* height: 160px; */
     padding-top: 100px;
 }
 
@@ -257,7 +257,7 @@
 
 
 #solution {
-    padding: 120px 120px 120px 120px;
+    padding: 0px 120px 120px 120px;
 }
 
 .solution-container {
@@ -325,7 +325,7 @@
     align-items: center;
     text-align: center;
     background-color: #F7F6F2;
-    margin: 120px 120px 120px 120px;
+    margin: 0px 120px 120px 120px;
     border-radius: 12px;
 }
 
